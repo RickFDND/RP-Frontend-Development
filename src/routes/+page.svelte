@@ -1,11 +1,8 @@
-<header>
-  <img src="/logo.png" alt="" width="150" />
-</header>
+<script>
+  import Header from "$lib/components/Header.svelte";
+</script>
+
+<Header />
 
 <style>
-  header {
-    display: flex;
-    align-items: center;
-    height: 80px;
-  }
 </style>
