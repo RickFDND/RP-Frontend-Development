@@ -36,6 +36,7 @@
     height: 12vh;
     background-color: var(--color-secondary);
     position: relative;
+    border-bottom: 1px solid var(--color-accent);
 
     .logo {
       display: flex;

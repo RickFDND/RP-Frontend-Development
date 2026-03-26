@@ -35,10 +35,24 @@
     border: 2px solid transparent;
   }
 
+  /* Sizes */
+  .sm {
+    padding: var(--space-2) var(--space-4);
+    font-size: var(--text-sm);
+  }
+  .md {
+    padding: var(--space-4) var(--space-8);
+    font-size: var(--text-base);
+  }
+  .lg {
+    padding: var(--space-6) var(--space-12);
+    font-size: var(--text-lg);
+  }
+
   /* Variants */
   .primary {
-    background-color: var(--color-secondary);
-    color: rgb(255, 255, 255);
+    background-color: var(--color-accent);
+    color: var(--color-primary);
   }
 
   .primary:hover {
@@ -64,6 +78,6 @@
   }
 
   .ghost:hover {
-    color: rgb(112, 98, 21);
+    color: rgb(139, 122, 24);
   }
 </style>
