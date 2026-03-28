@@ -1,7 +1,7 @@
 <script>
-  import HamburgerMenu from "$lib/components/HamburgerMenu.svelte";
-  import CloseMenu from "$lib/components/CloseMenu.svelte";
-  import Button from "$lib/components/Button.svelte";
+  import HamburgerMenu from "$lib/components/atoms/HamburgerMenu.svelte";
+  import CloseMenu from "$lib/components/atoms/CloseMenu.svelte";
+  import Button from "$lib/components/atoms/Button.svelte";
 </script>
 
 <header>
@@ -73,6 +73,7 @@
         height: 100vh;
         width: 50%;
         max-width: 20rem;
+        z-index: 1;
 
         ul {
           flex-direction: column;

@@ -2,6 +2,7 @@
   --color-primary: #FFFFFF;
   --color-secondary: #0A0A0A;
   --color-accent: #B8982F;
+  --color-accent-light: #E5C56A;
   --color-muted: #A0A0A0;
 
   /* Typography */
@@ -9,7 +10,7 @@
   --text-h2: clamp(1.8rem, 5vw, 2.8rem);
   --text-h3: clamp(1.5rem, 3vw, 2rem);
 
-  --text-base: clamp(1rem, 0.5vw + 0.9rem, 1.3rem);
+  --text-base: clamp(1rem, 0.6vw + 0.9rem, 1.7rem);
 
   --text-sm: calc(var(--text-base) * 0.875);
   --text-lg: calc(var(--text-base) * 1.25);
@@ -24,7 +25,7 @@
 
   --font-main: 'Inter', system-ui, sans-serif;
 
-  --section-padding: clamp(var(--space-16), 10vh, var(--space-24));
+  --section-padding: clamp(var(--space-12), 10vh, var(--space-16));
 }
 
 * {
@@ -42,6 +43,7 @@ body {
   color: var(--color-secondary);
   font-family: var(--font-main);
   min-height: 100vh;
+  line-height: 1.5;
 }
 
 h1 {

@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: center;
     margin: 1.5rem;
-    z-index: 1;
+    z-index: 2;
 
     svg {
       height: 100%;
