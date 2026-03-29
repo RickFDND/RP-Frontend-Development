@@ -27,7 +27,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
     gap: 1rem;
     padding-block: var(--section-padding);
     padding-inline: 1.5rem;
@@ -42,6 +41,10 @@
       display: flex;
       flex-direction: column;
       gap: 5rem;
+
+      strong {
+        color: var(--color-accent);
+      }
 
       img {
         width: 100%;

@@ -52,7 +52,7 @@
   /* Variants */
   .primary {
     background-color: var(--color-accent);
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
 
   .primary:hover {

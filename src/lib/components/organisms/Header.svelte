@@ -49,6 +49,7 @@
       display: none;
       justify-content: center;
       align-items: center;
+      transition: 2s ease-out;
 
       ul {
         display: flex;

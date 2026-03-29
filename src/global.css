@@ -1,7 +1,7 @@
 :root {
   --color-primary: #FFFFFF;
   --color-secondary: #0A0A0A;
-  --color-accent: #B8982F;
+  --color-accent: #BDA770;
   --color-accent-light: #E5C56A;
   --color-muted: #A0A0A0;
 
@@ -39,8 +39,8 @@ html {
 }
 
 body {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
   font-family: var(--font-main);
   min-height: 100vh;
   line-height: 1.5;
