@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 12vh;
+    height: 80px;
     background-color: var(--color-secondary);
     position: relative;
     border-bottom: 1px solid var(--color-accent);

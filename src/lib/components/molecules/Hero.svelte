@@ -21,7 +21,7 @@
     background-size: cover;
     background-position: center;
     background-color: var(--color-secondary);
-    height: clamp(280px, 20vw + 30vh, 88vh);
+    height: clamp(280px, 20vw + 30vh, calc(100vh - 80px));
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@
     }
 
     @media (min-width: 1024px) and (max-height: 1000px) {
-      height: 88vh;
+      height: calc(100vh - 80px);
     }
   }
 
